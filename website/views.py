@@ -6,7 +6,7 @@ def index_view(request):
 
 
 def about_view(request):
-    context = {'Birthday':'5 sep 1995'}
+    context = {"title":"I'm Hamed, a Python developer specializing in the design, development, and deployment of various types of websites."}
     return render(request, "website/about.html", context)
 
 

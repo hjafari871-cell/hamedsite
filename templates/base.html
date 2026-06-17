@@ -69,6 +69,7 @@
                             class="{% if request.resolver_match.url_name == 'resume' %}active{% endif %}">
                             Resume
                         </a>
+                        {% comment %}
                     <li>
                         <a href="{% url 'website:service' %}"
                             class="{% if request.resolver_match.url_name == 'service' %}active{% endif %}">
@@ -98,6 +99,7 @@
                             <li><a href="#">Dropdown 4</a></li>
                         </ul>
                     </li>
+                    {% endcomment %}
                     <li>
                         <a href="{% url 'website:contact' %}"
                             class="{% if request.resolver_match.url_name == 'contact' %}active{% endif %}">
@@ -114,17 +116,18 @@
 
     {% endblock %}
     <footer id="footer" class="footer dark-background">
-        <div class="container">
+        <div class="container-fluid">
             <h3 class="sitename">Personal</h3>
             <p>
-                گاهی مسیر سخت‌تر از چیزی است که انتظارش را داری، اما دقیقاً همان‌جاست که رشد اتفاق می‌افتد. ادامه دادن وقتی همه چیز کند
+                گاهی مسیر سخت‌تر از چیزی است که انتظارش را داری، اما دقیقاً همان‌جاست که رشد اتفاق می‌افتد. ادامه دادن
+                وقتی همه چیز کند
                 پیش می‌رود، تفاوت واقعی را می‌سازد.
             </p>
             <div class="social-links d-flex justify-content-center">
-                <a href=""><i class="bi bi-twitter-x"></i></a>
-                <a href=""><i class="bi bi-facebook"></i></a>
-                <a href=""><i class="bi bi-instagram"></i></a>
-                <a href=""><i class="bi bi-skype"></i></a>
+                <a href="#"><i class="bi bi-twitter-x"></i></a>
+                <a href="https://t.me/hamedih4"><i class="bi bi-telegram"></i></a>
+                <a href="https://www.instagram.com/hamedii.hjj"><i class="bi bi-instagram"></i></a>
+                <a href="https://wa.me/989194611429"><i class="bi bi-whatsapp"></i></a>
                 <a href=""><i class="bi bi-linkedin"></i></a>
             </div>
             <div class="container">
@@ -137,8 +140,8 @@
                     <!-- You can delete the links only if you've purchased the pro version. -->
                     <!-- Licensing information: HamedSite/license/ -->
                     <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-                    Designed by <a href="https://bootstrapmade.com/">حامد جعفری</a> | <a
-                        href="https://bootstrapmade.com/tools/">DevTools</a>
+                    Designed by <a href="https://iamhamedi.ir/">حامد جعفری</a> | <a
+                        href="https://iamhamedi/contact/">DevTools</a>
                 </div>
             </div>
         </div>
