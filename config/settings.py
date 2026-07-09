@@ -23,19 +23,19 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = "django-insecure-we1n#0$^np&bizlw%+)3)3j92(7v))fkf@+w4noq3$%=j3_klr"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 
 ALLOWED_HOSTS = [
-    # "hamedsite.onrender.com",
-    # "iamhamedi.ir",
-    # "www.iamhamedi.ir",
+    "hamedsite.onrender.com",
+    "iamhamedi.ir",
+    "www.iamhamedi.ir",
 ]
 
 CSRF_TRUSTED_ORIGINS = [
-    # "https://hamedsite.onrender.com",
-    # "https://iamhamedi.ir",
-    # "https://www.iamhamedi.ir",
+    "https://hamedsite.onrender.com",
+    "https://iamhamedi.ir",
+    "https://www.iamhamedi.ir",
 ]
 
 # Application definition
